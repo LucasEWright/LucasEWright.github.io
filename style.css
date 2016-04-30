@@ -15,6 +15,22 @@ section.newsection {
 
 }
 p#oneliner {
-
-	font-style: bold;
+	font-style: Times;
 }
+table#table {
+	background-color: #600049;
+	color: white;
+}
+a:visited {
+	color: red;
+
+}
+@media only screen and (max-device-width: 450px) {
+
+	body {
+		max-width: 450px;
+	}
+	img#banner {
+		max-width: 100%;
+	}
+	}
